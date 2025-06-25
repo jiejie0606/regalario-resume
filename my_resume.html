@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jellian Anne Regalario - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #FAFAFA;
+            --accent: #A0C4FF;
+            --secondary: #BDB2FF;
+            --highlight: #FFC6FF;
+            --text-dark: #333;
+            --text-muted: #666;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-dark);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .left, .right {
+            flex: 1 1 300px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--accent);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        h2 {
+            color: var(--text-muted);
+            font-size: 1.2em;
+            margin-top: 5px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            border-left: 5px solid var(--secondary);
+            padding-left: 10px;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        .contact p, .education-item p {
+            margin: 5px 0;
+            color: var(--text-muted);
+        }
+
+        .about {
+            background: var(--highlight);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list span {
+            background: var(--accent);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.85em;
+            color: var(--text-muted);
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="https://i.imgur.com/5CcWLHw.png" alt="Profile Photo" class="profile-pic">
+            <h1>Jellian Anne Regalario</h1>
+            <h2>Computer Engineering Student</h2>
+
+            <div class="section contact">
+                <h3>Contact</h3>
+                <p>📞 +63 9XX XXX XXXX</p>
+                <p>✉️ <a href="mailto:regalariojellian@gmail.com">regalariojellian@gmail.com</a></p>
+                <p>📍 Antipolo City, Philippines</p>
+                <p>📘 Jellian Anne Regalario</p>
+                <p>📷 @jie_llo</p>
+                <p>🎵 @coffee_jellian</p>
+            </div>
+
+            <div class="section skills">
+                <h3>Skills</h3>
+                <div class="skills-list">
+                    <span>Adaptable and Driven</span><span>Performs Well Under Pressure</span><span>Multi-tasking</span><span>Communication</span><span>Problem Solving</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="section about">
+                <h3>About Me</h3>
+                <p>Resourceful and detail-driven professional with a proven ability to solve problems and thrive under pressure. I perform confidently in dynamic, fast-paced settings, consistently meeting tight deadlines while managing multiple priorities. With a proactive mindset and strong communication skills, I collaborate effectively within teams to achieve goals and deliver high-quality results.</p>
+            </div>
+
+            <div class="section education">
+                <h3>Education</h3>
+                <div class='education-item'><strong>1st Year - BS Computer Engineering</strong><p>EARIST - Manila | 2024–Present</p></div><div class='education-item'><strong>Senior High School Graduate</strong><p>Gardner College Cainta | 2022–2024</p></div><div class='education-item'><strong>High School Graduate</strong><p>Bagong Nayon 2 National High School | 2018–2022</p></div><div class='education-item'><strong>Elementary Graduate</strong><p>Peace Village Elementary School | 2012–2018</p></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Jellian Anne Regalario. All rights reserved.
+    </footer>
+</body>
+</html>
